@@ -22,6 +22,14 @@ const mult = (x, y) => {//multiline fat arrox need {}
 l=console.log;
 l(add(2,4));
 
+l(mult(3,5));
+
+function calculous(x,y,operation){
+    return operation(x,y);
+}
+
+l(calculous(1,2,div))
+
 
 
 
