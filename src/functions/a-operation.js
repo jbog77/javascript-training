@@ -19,16 +19,22 @@ const mult = (x, y) => {//multiline fat arrox need {}
     return x * y; // return NEED for multiline fat arrow
 }
 
-l=console.log;
-l(add(2,4));
+log=console.log;
+log(add(2,4));
 
-l(mult(3,5));
+log(mult(3,5));
 
 function calculous(x,y,operation){
     return operation(x,y);
 }
 
-l(calculous(1,2,div))
+log(calculous(1,2,div))
+
+const result = calculous(9,4,function(x,y){
+return x%y;
+});
+
+log("result :",result);
 
 
 
